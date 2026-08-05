@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Penggajian - Sifa Andriyani</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <button class="nav-toggle" type="button" aria-label="Buka menu navigasi" onclick="this.closest('.navbar').classList.toggle('nav-open')">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="menu">
+            <a href="../index.html">Home</a>
+            <a href="../about.html">About Me</a>
+            <a href="../projects.html">Projects</a>
+            <a href="../contact.html">Contact Me</a>
+        </div>
+    </nav>
+
+<section class="detail-hero">
+
+    <a href="../projects.html" class="detail-back">&larr; Kembali ke Projects</a>
+
+    <span class="detail-category">Web Development</span>
+
+    <h1 class="detail-title">Sistem Penggajian</h1>
+
+    <div class="detail-meta">
+        <div class="detail-meta-item">
+            <span>Peran</span>
+            <p>Fullstack Developer</p>
+        </div>
+        <div class="detail-meta-item">
+            <span>Tech Stack</span>
+            <div class="tag-list">
+                <span class="tag">Laravel</span>
+                <span class="tag">MySQL</span>
+                <span class="tag">Bootstrap</span>
+            </div>
+        </div>
+        <div class="detail-meta-item">
+            <span>Durasi</span>
+            <p>1.5 bulan</p>
+        </div>
+        <div class="detail-meta-item">
+            <span>Periode</span>
+            <p>Juli 2026</p>
+        </div>
+    </div>
+
+    <div class="detail-links">
+        <!-- TODO: ganti dengan link repository Github asli kamu -->
+        <a href="https://github.com/username/sistem-penggajian" target="_blank" class="detail-link-btn detail-link-solid">
+            <i class="fa-brands fa-github"></i> Lihat di Github
+        </a>
+        <!-- TODO: ganti "#" dengan link live demo (Netlify/Vercel/GitHub Pages, dll) -->
+        <a href="#" target="_blank" class="detail-link-btn detail-link-outline">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+        </a>
+    </div>
+
+    <div class="detail-cover">
+        <img src="../images/projects/sistem-penggajian.png" alt="Tampilan Sistem Informasi Penggajian">
+    </div>
+
+</section>
+
+<section class="detail-body">
+
+    <div class="detail-content">
+        <h3>Overview</h3>
+        <p>
+            Sistem Penggajian merupakan aplikasi berbasis web yang dirancang untuk membantu proses 
+            pengelolaan data karyawan dan penggajian secara lebih terstruktur. Sistem ini memudahkan 
+            admin dalam mengelola data jabatan, kehadiran, hingga laporan penggajian dalam satu platform.
+        </p>
+    </div>
+
+    <div class="detail-content">
+        <h3>Problem</h3>
+        <p>
+            Pengelolaan data karyawan dan penggajian yang masih dilakukan secara manual sering kali 
+            membutuhkan waktu lebih lama dan berisiko terjadi kesalahan pencatatan. Selain itu, 
+            proses rekapitulasi data dan pembuatan laporan menjadi kurang efisien ketika jumlah 
+            karyawan terus bertambah.
+        </p>
+    </div>
+
+    <div class="detail-content">
+        <h3>Fitur Utama</h3>
+        <ul>
+            <li>Beranda: dashboard ringkasan untuk admin HRD</li>
+            <li>Data Jabatan: kelola daftar jabatan karyawan</li>
+            <li>Data Karyawan: kelola data karyawan</li>
+            <li>Data Kehadiran: pemantauan kehadiran karyawan</li>
+            <li>Data Penggajian: perhitungan gaji otomatis berdasarkan jabatan dan kehadiran</li>
+            <li>Laporan Penggajian: rekap laporan penggajian per periode</li>
+        </ul>
+    </div>
+
+    <div class="detail-content detail-content-wide">
+        <h3>Galeri Tampilan</h3>
+        <div class="detail-gallery">
+            <a class="gallery-item" href="../images/projects/sistem-penggajian/beranda.png" target="_blank">
+                <img src="../images/projects/sistem-penggajian/beranda.png" alt="Halaman Beranda Sistem Penggajian">
+                <span>Beranda</span>
+            </a>
+            <a class="gallery-item" href="../images/projects/sistem-penggajian/data-jabatan.png" target="_blank">
+                <img src="../images/projects/sistem-penggajian/data-jabatan.png" alt="Halaman Data Jabatan">
+                <span>Data Jabatan</span>
+            </a>
+            <a class="gallery-item" href="../images/projects/sistem-penggajian/data-karyawan.png" target="_blank">
+                <img src="../images/projects/sistem-penggajian/data-karyawan.png" alt="Halaman Data Karyawan">
+                <span>Data Karyawan</span>
+            </a>
+            <a class="gallery-item" href="../images/projects/sistem-penggajian/data-kehadiran.png" target="_blank">
+                <img src="../images/projects/sistem-penggajian/data-kehadiran.png" alt="Halaman Data Kehadiran">
+                <span>Data Kehadiran</span>
+            </a>
+            <a class="gallery-item" href="../images/projects/sistem-penggajian/data-penggajian.png" target="_blank">
+                <img src="../images/projects/sistem-penggajian/data-penggajian.png" alt="Halaman Data Penggajian">
+                <span>Data Penggajian</span>
+            </a>
+            <a class="gallery-item" href="../images/projects/sistem-penggajian/laporan-penggajian.png" target="_blank">
+                <img src="../images/projects/sistem-penggajian/laporan-penggajian.png" alt="Halaman Laporan Penggajian">
+                <span>Laporan Penggajian</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="detail-content">
+        <h3>Tantangan Teknis</h3>
+        <p>
+            Tantangan dalam pengembangan sistem ini adalah membangun hubungan data antara jabatan, karyawan, 
+            kehadiran, dan penggajian agar proses pengelolaan data berjalan dengan baik. Selain itu, diperlukan 
+            tampilan yang responsif dan navigasi yang mudah dipahami sehingga admin dapat mengakses setiap fitur 
+            dengan lebih efisien.
+        </p>
+    </div>
+
+    <div class="detail-content">
+        <h3>Hasil</h3>
+        <p>
+            Hasil akhir berupa aplikasi penggajian berbasis web yang membantu admin mengelola data jabatan, data karyawan, 
+            kehadiran, penggajian, serta laporan dalam satu sistem yang terintegrasi dengan tampilan yang sederhana dan mudah digunakan.
+        </p>
+    </div>
+
+    <div class="detail-nav">
+        <a href="toko-bunga.html">&larr; Toko Bunga</a>
+        <a href="berkah-lestari.html">Berkah Lestari &rarr;</a>
+    </div>
+
+</section>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+
+            <div class="footer-left">
+                <h2>Navigasi</h2>
+                <a href="../index.html">Home</a>
+                <a href="../about.html">About Me</a>
+                <a href="../projects.html">Projects</a>
+                <a href="../contact.html">Contact Me</a>
+            </div>
+
+            <div class="footer-center">
+                <h2>Temukan Saya</h2>
+                <div class="social">
+                    <a href="https://linkedin.com/in/sifa-andriyani-039961422" target="_blank">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/sifandriyani" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sifaandriyani14@gmail.com" target="_blank">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="https://wa.me/6285782289490" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>

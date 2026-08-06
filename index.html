@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Sifa Andriyani</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <button class="nav-toggle" type="button" aria-label="Buka menu navigasi" onclick="this.closest('.navbar').classList.toggle('nav-open')">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="menu">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact Me</a>
+        </div>
+    </nav>
+
+<section class="hero" id="home">
+
+    <div class="photo-strip-wrap">
+
+        <span class="star star-top">★</span>
+
+        <div class="photo-strip">
+            <div class="photo-slot">
+                <img src="images/hati-merah.png" alt="" class="hearts">
+                <img src="images/cewe-boneka.png" alt="Ilustrasi karakter 1" class="character">
+            </div>
+            <div class="photo-slot">
+                <img src="images/hati-biru.png" alt="" class="hearts">
+                <img src="images/cewe-biru.png" alt="Ilustrasi karakter 2" class="character">
+            </div>
+            <div class="photo-slot">
+                <img src="images/hati-merah.png" alt="" class="hearts">
+                <img src="images/cewe-topi.png" alt="Ilustrasi karakter 3" class="character">
+            </div>
+        </div>
+
+        <img src="images/note-lagu.png" alt="" class="deco note-lagu">
+        <span class="star star-bottom">★</span>
+
+    </div>
+
+    <div class="hero-content">
+        <p class="hero-greeting">Nice To Meet You</p>
+
+        <h1 class="hero-title">
+            <img src="images/spiral.png" alt="" class="deco spiral">
+            Portfolio
+        </h1>
+
+        <h2 class="hero-name">
+            Sifa Andriyani
+            <img src="images/petik-3.png" alt="" class="deco petik">
+        </h2>
+
+        <p class="hero-role">UI/UX Designer &nbsp;&nbsp; Frontend Developer</p>
+
+        <div class="hero-buttons">
+            <img src="images/kucing-merah.png" alt="" class="deco kucing">
+            <a href="#projects" class="btn btn-outline">My Project</a>
+            <a href="cv/cv.pdf" class="btn btn-outline" target="_blank">View CV</a>
+        </div>
+    </div>
+
+</section>
+
+<section class="cta">
+
+    <p class="cta-text">Let's build something meaningful together.</p>
+
+    <div class="cta-inner">
+        <img src="images/kucing-putih.png" alt="Kucing putih" class="cta-cat">
+        <a href="#contact" class="btn btn-solid">Touch In Here</a>
+    </div>
+
+</section>
+
+<div class="marquee">
+    <div class="marquee-track">
+        <span>★ UI/UX DESIGNER ★ FRONTEND DEVELOPER ★ UI/UX DESIGNER ★ FRONTEND DEVELOPER ★ UI/UX DESIGNER ★ FRONTEND DEVELOPER ★ UI/UX DESIGNER ★ FRONTEND DEVELOPER ★</span>
+        <span aria-hidden="true">★ UI/UX DESIGNER ★ FRONTEND DEVELOPER ★ UI/UX DESIGNER ★ FRONTEND DEVELOPER ★ UI/UX DESIGNER ★ FRONTEND DEVELOPER ★ UI/UX DESIGNER ★ FRONTEND DEVELOPER ★</span>
+    </div>
+</div>
+
+<section class="about" id="about">
+
+    <h2 class="section-title">About Me</h2>
+
+    <div class="about-wrap">
+        <div class="about-text">
+            <div class="about-name">
+                <div class="about-hello">
+                    <span>Halo saya</span>
+                    <img src="images/emot.png" alt="" class="about-emot">
+                </div>
+                <h3>Sifa Andriyani</h3>
+            </div>
+            <p>
+                Saya mahasiswa semester 7 Sistem Informasi yang tertarik pada dunia UI/UX Design dan
+                Frontend Development. Saya senang mengubah ide menjadi desain yang mudah dipahami dan tampilan
+                website yang responsif. Melalui berbagai proyek selama perkuliahan, saya terus mengembangkan
+                kemampuan desain, pemrograman, serta kerja sama tim untuk menciptakan pengalaman digital yang
+                lebih baik.
+            </p>
+        </div>
+
+        <div class="about-photo">
+            <img src="images/profil.jpeg" alt="Foto Sifa Andriyani" class="photo-pic">
+            <img src="images/polaroid-merah.png" alt="" class="photo-frame">
+            <img src="images/rubah-gigit.png" alt="" class="photo-fox">
+        </div>
+    </div>
+
+    <div class="section-nav-grid">
+        <a href="skills-tools.html" class="section-nav-card">
+            <span class="section-nav-icon"><i class="fa-solid fa-screwdriver-wrench"></i></span>
+            <h3>Skills &amp; Tools</h3>
+            <p>Bahasa pemrograman, framework, dan tools yang saya kuasai untuk mendukung proses desain dan pengembangan aplikasi.</p>
+            <span class="section-nav-more">Lihat Selengkapnya <i class="fa-solid fa-arrow-right"></i></span>
+        </a>
+        <a href="experience.html" class="section-nav-card">
+            <span class="section-nav-icon"><i class="fa-solid fa-briefcase"></i></span>
+            <h3>Pengalaman</h3>
+            <p>Pengalaman kerja, organisasi, dan proyek yang saya jalani dalam membangun skill desain dan pengembangan digital.</p>
+            <span class="section-nav-more">Lihat Selengkapnya <i class="fa-solid fa-arrow-right"></i></span>
+        </a>
+        <a href="sertifikat.html" class="section-nav-card">
+            <span class="section-nav-icon"><i class="fa-solid fa-award"></i></span>
+            <h3>Sertifikat</h3>
+            <p>Kumpulan sertifikat pelatihan, kompetensi, dan organisasi yang pernah saya ikuti selama masa kuliah.</p>
+            <span class="section-nav-more">Lihat Selengkapnya <i class="fa-solid fa-arrow-right"></i></span>
+        </a>
+    </div>
+
+</section>
+
+<section class="projects" id="projects">
+
+    <h2 class="section-title">Projects</h2>
+
+    <h3 class="subsection-title subsection-title-left">UI/UX Design Projects</h3>
+
+    <div class="project-grid">
+        <div class="project-card">
+            <div class="project-thumb thumb-img">
+                <img src="images/projects/posyandu.png" alt="Sistem Pengelolaan Data Posyandu">
+            </div>
+            <div class="project-body">
+                <span class="project-period">Januari 2024</span>
+                <h4>Sistem Pengelolaan Data Posyandu</h4>
+                <a href="projects/posyandu.html" class="view-details">View Details</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-thumb thumb-img">
+                <img src="images/projects/flicks.png" alt="Merancang UI/UX Design Aplikasi Flicks">
+            </div>
+            <div class="project-body">
+                <span class="project-period">Juli 2024</span>
+                <h4>Merancang UI/UX Design Aplikasi Flicks</h4>
+                <a href="projects/flicks.html" class="view-details">View Details</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-thumb thumb-img">
+                <img src="images/projects/selbi-salon.png" alt="Merancang Aplikasi Salon Digital">
+            </div>
+            <div class="project-body">
+                <span class="project-period">Juni 2026</span>
+                <h4>Merancang Aplikasi Salon Digital</h4>
+                <a href="projects/selbi-salon.html" class="view-details">View Details</a>
+            </div>
+        </div>
+    </div>
+
+    <h3 class="subsection-title subsection-title-left">Web Projects</h3>
+
+    <div class="project-grid">
+        <div class="project-card">
+            <div class="project-thumb thumb-img">
+                <img src="images/projects/varsha.png" alt="Website Toko Tas Varsha">
+            </div>
+            <div class="project-body">
+                <span class="project-period">Juli 2026</span>
+                <h4>Website Toko Tas Varsha</h4>
+                <a href="projects/varsha.html" class="view-details">View Details</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-thumb thumb-img">
+                <img src="images/projects/toko-bunga.png" alt="Website Toko Bunga">
+            </div>
+            <div class="project-body">
+                <span class="project-period">Juli 2024</span>
+                <h4>Website Toko Bunga</h4>
+                <a href="projects/toko-bunga.html" class="view-details">View Details</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-thumb thumb-img">
+                <img src="images/projects/sistem-penggajian.png" alt="Sistem Penggajian">
+            </div>
+            <div class="project-body">
+                <span class="project-period">Juli 2026</span>
+                <h4>Sistem Penggajian</h4>
+                <a href="projects/sistem-penggajian.html" class="view-details">View Details</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <div class="project-thumb thumb-img">
+                <img src="images/projects/berkah-lestari.png" alt="SPK Tanaman Hias Berkah Lestari">
+            </div>
+            <div class="project-body">
+                <span class="project-period">Juni 2026</span>
+                <h4>Sistem Penunjang Keputusan Tanaman Hias Berkah Lestari</h4>
+                <a href="projects/berkah-lestari.html" class="view-details">View Details</a>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="contact" id="contact">
+
+    <h2 class="section-title">Contact Me</h2>
+
+    <div class="contact-grid">
+        <a href="https://wa.me/6285782289490" target="_blank" class="contact-card">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span>WhatsApp</span>
+        </a>
+        <a href="https://instagram.com/sifandrr" target="_blank" class="contact-card">
+            <i class="fa-brands fa-instagram"></i>
+            <span>Instagram</span>
+        </a>
+        <a href="https://github.com/sifandriyani" target="_blank" class="contact-card">
+            <i class="fa-brands fa-github"></i>
+            <span>Github</span>
+        </a>
+        <a href="https://linkedin.com/in/sifa-andriyani-039961422" target="_blank" class="contact-card">
+            <i class="fa-brands fa-linkedin-in"></i>
+            <span>LinkedIn</span>
+        </a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sifaandriyani14@gmail.com" target="_blank" class="contact-card">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Email</span>
+        </a>
+    </div>
+
+</section>
+
+    <footer class="site-footer">
+        <div class="footer-container footer-solo">
+
+            <div class="footer-left">
+                <h2>Navigasi</h2>
+                <a href="#home">Home</a>
+                <a href="#about">About Me</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact Me</a>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>
